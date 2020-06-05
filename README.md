@@ -1,1 +1,2 @@
-# FeatuR.Standalone.MySQL
+# FeatuR Stand alone (MySQL)
+

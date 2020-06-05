@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{92446C91-B156-4FFD-9B6B-8F6A0E970E56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0EE4F89B-0AC3-4D88-A77C-0C780979BFF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FeatuR.Standalone.MySQL.WebApi", "src\FeatuR.Standalone.MySQL.WebApi\FeatuR.Standalone.MySQL.WebApi.csproj", "{47472074-7D66-4D24-8227-8CA34A8AEBAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47472074-7D66-4D24-8227-8CA34A8AEBAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47472074-7D66-4D24-8227-8CA34A8AEBAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47472074-7D66-4D24-8227-8CA34A8AEBAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47472074-7D66-4D24-8227-8CA34A8AEBAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{47472074-7D66-4D24-8227-8CA34A8AEBAC} = {92446C91-B156-4FFD-9B6B-8F6A0E970E56}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1572F952-E07C-4437-8379-6867F46DC1B6}
+	EndGlobalSection
+EndGlobal
