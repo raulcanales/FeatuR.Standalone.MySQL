@@ -1,2 +1,2 @@
-# FeatuR Stand alone (MySQL)
+# FeatuR Standalone (MySQL)
 
