@@ -29,7 +29,7 @@ namespace FeatuR.Standalone.MySQL.WebApi.Controllers
             return Ok();
         }
 
-        [HttpGet("feature/{featureId}")]
+        [HttpGet("feature/{featureId}/isenabled")]
         public async Task<IActionResult> IsFeatureEnabledAsync(string featureId, CancellationToken token = default)
         {
             var context = GetFeatureContext();
