@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace FeatuR.Standalone.MySQL.WebApi.Controllers
 {
     [ApiController]
+    [Route("api")]
     public class FeatureController : ControllerBase
     {
         private readonly IFeatureService _featureService;

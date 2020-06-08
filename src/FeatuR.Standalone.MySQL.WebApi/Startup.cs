@@ -35,15 +35,11 @@ namespace FeatuR.Standalone.MySQL.WebApi
             });
         }
 
-        private static void UpdateDatabase(IApplicationBuilder app)
+        private void UpdateDatabase(IApplicationBuilder app)
         {
-            using (var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope())
-            {
-                using (var context = serviceScope.ServiceProvider.GetService<FeatuRDbContext>())
-                {
-                    var migrations = context.Database.GetPendingMigrations();
-                }
-            }
+            using var serviceScope = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>().CreateScope();
+            using var context = serviceScope.ServiceProvider.GetService<FeatuRDbContext>();
+            context.Database.Migrate();
         }
     }
 }
