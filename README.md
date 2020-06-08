@@ -38,7 +38,7 @@ Response:
 
 With this endpoint, we can pass a list of feature ids, and the API will return a dictionary containing the same ids, and a boolean indicating wether they are enabled or not for the given context.
 
-###
+### List enabled features
 
 ```
 GET /api/features
