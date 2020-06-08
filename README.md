@@ -4,8 +4,6 @@ This is a basic implementation for the package FeatuR.EntityFramework.MySQL, whe
 
 ## Consumer endpoints
 
-The API offers three different endpoints to consume.
-
 All of the endpoints will fetch **all the headers** from the request, and pass it to the system as ´IFeatureContext´. Some good applications for this, could be passing:
 
 - User id
@@ -13,6 +11,7 @@ All of the endpoints will fetch **all the headers** from the request, and pass i
 - IP Address
 - Region
 
+This are the different endpoints that the API offers.
 
 ### Is enabled
 ```
