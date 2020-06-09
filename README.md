@@ -4,7 +4,7 @@ This is a basic implementation for the package FeatuR.EntityFramework.MySQL, whe
 
 ## Consumer endpoints
 
-All of the endpoints will fetch **all the headers** from the request, and pass it to the system as ´IFeatureContext´. Some good applications for this, could be passing:
+All of the endpoints will fetch **all the headers** from the request, and pass it to the system as `IFeatureContext`. Some good applications for this, could be passing:
 
 - User id
 - Client version
